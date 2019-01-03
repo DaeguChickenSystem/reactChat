@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+
+.main-container{
+  position: absolute;
+  width: 99%;
+  top: 0;
+  background:whitesmoke;
+  height: 99%;
+}
+
+.leftArea{
+  width: 5%;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+
+.rightArea{
+  position: relative;
+  width: 94.7%;
+  float: left;
+  height: 100%;
+}
+
+.right-wrapper{
+      height: 100%;
+}
+
+.search{
+  position: relative;
+    width: 100%;
+    height: 3%;
+}
+
+.loginForm
+{
+  width: 20%;
+  border: 1px solid #445461;
+  height: 400px;
+  position: fixed;
+  left: 40%;
+  top: 20%;
+  box-shadow: 0 0 30px #CCC;
+  background-color: #265175;
+}
+.loginSubmit{
+    position: relative;
+    width: 100%;
+    /* text-align: center; */
+    left: 16%;
+    text-align: center;
+}
+.login{
+	border: 1px solid #1f4c6f;
+	display: inline-block;
+	width: 80px;
+	background-color: #ffd65a;
+	height: 32px;
+	cursor: cell;
+}
+.login:hover{
+   background-color: #ff5722;
+	 color:#efefef;
+}
+.loginHead{
+  position: relative;
+  width: 90%;
+  left: 5%;
+  height: 65%;
+  top: 5;
+  opacity: 0.9;
+  opacity: 99%;
+  top: 5px;
+  background: #265175;
+}
+
+.apply{
+ border: 1px solid #1f4c6f;
+ display: inline-block;
+/* text-align: center; */
+ width: 80px;
+ padding-top: ;
+ background-color: #ffd65a;
+ height: 32px;
+ cursor: cell;
+}
+
+.apply:hover{
+   background-color: #ff5722;
+	 color:#efefef;
+}
+
+#idText{
+  width: 190px;
+  background-color: aliceblue;
+  height: 30px;
+  border: 0px;
+}
+
+#pwText{
+  width: 190px;
+  background-color: aliceblue;
+  height: 30px;
+  border: 0px;
+}
+
+.idInput{
+	width: 190px;
+	background-color: aliceblue;
+	height: 30px;
+	margin: 10px;
+	position: relative;
+	left: 15%;
+}
+
+.pwInput{
+  width: 190px;
+  background-color: aliceblue;
+  height: 30px;
+  margin: 10px;
+  position: relative;
+  left: 15%;
+}
+
+
+.loginSubmit{
+    position: relative;
+    width: 100%;
+    /* text-align: center; */
+    left: 16%;
+    text-align: center;
+}
+
+.frndlist{
+  position: relative;
+      width: 100%;
+      height: 90%;
+}
+
+.content{
+position: relative;
+width: 98%;
+height: 100%;
+border-radius: 4px;
+padding-left: 4px;
+background-color: #fffdfd;
+height: 15%;
+margin: 0.5%;
+
+}
+
+.content:hover{
+  background: darkgray;
+}
+
+.cntTitleCheck{
+  position: relative;
+  width: 6%;
+  height: 80%;
+  border-radius: 20%;
+  background: #d6e1e6;
+  top: 10%;
+  text-align: center;
+  float: left;
+}
+
+.cntBody{
+  position: relative;
+  float: left;
+  top: 10%;
+  border-radius: 4px;
+  width: 80%;
+  height: 80%;
+  left: 2%;
+}
+
+.chat-output-container{
+  width: 95%;
+  height: 75%;
+  background-color: whitesmoke;
+  padding: 2%;
+  overflow-y: auto;
+}
+
+.chat-input-container{
+  width: 98.5%;
+  height: 15%;
+  padding: 4px;
+}
+
+.chat-type{
+  width: 90%;
+  float: left;
+  background: whitesmoke;
+  height: 100%;
+}
+
+.chat-button{
+  width: 10%;
+  float: left;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #2196F3;
+}
+
+.chat-button:hover{
+  background: darkgray;
+}
+
+.input-area{
+  width: 98%;
+  height: 97%;
+}
+
+.chat-content-left{
+  position: relative;
+  width: 70%;
+  padding-left: 4px;
+  height: 15%;
+  float:left;
+  margin-bottom: 2%;
+}
+
+.chat-content-right{
+  position: relative;
+  width: 70%;
+  padding-left: 4px;
+  height: 15%;
+  float:right;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+.chat-avatar-right{
+  position: relative;
+  width: 6%;
+  padding: 1%;
+  height: 75%;
+  background-color: #c9dbea;
+  float: right;
+}
+.chat-avatar-left{
+  position: relative;
+  width: 6%;
+  height: 100%;
+  float: left;
+}
+
+.back-button{
+  position: fixed;
+  width: 3%;
+  height: 5%;
+  left: 2%;
+  text-align: center;
+  top: 4%;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.7%;
+  border-radius: 15%;
+  background-color: #e2133a;
+}
+.back-button:hover{
+  background: darkgray;
+}
+
+.socketMsg{
+  position: relative;
+  width: 99%;
+  height: 4.5%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
